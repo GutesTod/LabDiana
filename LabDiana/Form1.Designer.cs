@@ -102,6 +102,7 @@
             // numericUpDownKey
             // 
             numericUpDownKey.Location = new Point(12, 133);
+            numericUpDownKey.Maximum = new decimal(new int[] { 256, 0, 0, 0 });
             numericUpDownKey.Name = "numericUpDownKey";
             numericUpDownKey.Size = new Size(120, 23);
             numericUpDownKey.TabIndex = 6;
